@@ -1,9 +1,6 @@
 # On Java 笔记
 官方源码地址；https://github.com/BruceEckel/OnJava8-Examples
 
-![alt OnJava8](./images/OnJava8.jpg)
-
-
 [chapter01-什么是对象](./chapter01-什么是对象.md)  
 [chapter02-安装Java和本书示例](./chapter02-安装Java和本书示例.md)    
 [chapter03-对象无处不在](./chapter03-对象无处不在.md)  
@@ -24,5 +21,7 @@
 [chapter18-字符串](./chapter18-字符串.md)  
 [chapter19-反射](./chapter19-反射.md)  
 [chapter20-泛型](./chapter20-泛型.md)  
-[chapter21-数组](./chapter21-数组.md)  
+[chapter21-数组](./chapter21-数组.md) 
+ 
+![alt OnJava8](./images/OnJava8.jpg)
 
