@@ -1,5 +1,5 @@
 # On Java 笔记
-官方源码地址；https://github.com/BruceEckel/OnJava8-Examples
+官方源码地址：https://github.com/BruceEckel/OnJava8-Examples
 
 [chapter01-什么是对象](./chapter01-什么是对象.md)  
 [chapter02-安装Java和本书示例](./chapter02-安装Java和本书示例.md)    

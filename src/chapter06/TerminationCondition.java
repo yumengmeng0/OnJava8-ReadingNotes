@@ -1,6 +1,6 @@
 package chapter06;
 
-import com.onjava.Nap;
+import onjava.Nap;
 
 /**
  * @author: ymm

@@ -48,4 +48,4 @@ Java5添加了*协变返回类型（covariant return type）*，子类中重写�
 ### 9.5.2 向下转型与反射
 Java中每个转型都会被检查，强制转型在运行时会被检查，如果不成功，会抛出ClassCastException。
 在运行时检查类型的行为是Java*反射*。  
-[Reflect.java.java](src/chapter09/polymorphism/Reflect.java.java)  
+[Reflect.java.java](src/chapter09/polymorphism/Reflect.java)  
