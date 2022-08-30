@@ -5,23 +5,23 @@
 
 
 ```java
-public class TestParcel4 {
+public class OuterClass {
     public static void main(String[] args) {
     }
 
-    class BClass { // 内部类
+    class InnerClass { // 内部类
 
     }
 }
 
-class AClass { // 外部其他类
+class OtherClass { // 外部其他类
 
 }
 ```
     被编译为3个class文件：
-    AClass.class    具有包访问权限
-    TestParcel4$BClass.class 内部类需要依赖外部类对象
-    TestParcel4.class 
+    OtherClass.class            具有包访问权限
+    OuterClass$InnerClass.class 内部类
+    OuterClass.class            内部类需要依赖外部类对象
 
 ## 11.1 创建内部类
 [Parcel1.java](src/chapter11/innerclass/Parcel1.java)   
