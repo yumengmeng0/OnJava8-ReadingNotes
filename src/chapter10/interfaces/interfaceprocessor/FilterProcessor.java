@@ -17,6 +17,5 @@ public class FilterProcessor {
         Applicator.apply(new FilterAdapter(new LowPass(1.0)), waveform);
         Applicator.apply(new FilterAdapter(new HighPass(2.0)), waveform);
         Applicator.apply(new FilterAdapter(new BandPass(3.1,4.0)), waveform);
-
     }
 }
