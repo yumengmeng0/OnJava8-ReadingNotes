@@ -46,17 +46,17 @@ finalize()的使用仅限于一种特殊情况，对象以某种方式（Java中
 ## 6.6 成员初始化
     局部变量必须显示初始化。
     
-| 数据类型 | 默认初始值 |
-| --- | --- |
-| boolean | false |
-| char | [nul] 0 |
-| byte | 0 |
-| short | 0 |
-| int | 0 |
-| long | 0 |
-| float | 0.0 |
-| double | 0.0 |
-| reference | null |
+| 数据类型      | 默认初始值   |
+|-----------|---------|
+| boolean   | false   |
+| char      | [nul] 0 |
+| byte      | 0       |
+| short     | 0       |
+| int       | 0       |
+| long      | 0       |
+| float     | 0.0     |
+| double    | 0.0     |
+| reference | null    |
 
 指定初始化
 

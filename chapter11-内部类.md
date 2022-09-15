@@ -1,9 +1,6 @@
 # chapter11-内部类
 定义在另一个类中的类称为*内部类*。
 
-
-
-
 ```java
 public class OuterClass {
     public static void main(String[] args) {
@@ -100,5 +97,5 @@ class OtherClass { // 外部其他类
 局部内部类不能使用访问修饰符，因为它不是外围类的组成部分，但它可以访问当前代码块中的常量，和外围类中的所有成员。  \
 [LocalInnerClass.java](src/chapter11/innerclass/LocalInnerClass.java) 
 
-## 11.12 内部类标识符
+## 11.12 内部类标识符 $
 

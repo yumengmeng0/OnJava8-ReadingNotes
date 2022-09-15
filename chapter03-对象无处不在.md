@@ -17,17 +17,17 @@
     
 ### 3.2.2 特殊情况基本数据类型
 
-| 基本类型 | 大小 | 最小值 | 最大值 | 包装类 |
-| --- | --- | --- | --- | --- |
-| boolean | - | - | - | Boolean |
-| char | 16位 | Unicode 0 \u0000 | 65535 \uffff | Character |
-| byte | 8位 | -128 | 127 | Byte |
-| short | 16位 | -32768 | +32767 | Short |
-| int | 32位 | -2^31 | +2^31 - 1 | Integer |
-| long | 64位 | -2^63 | +2^63 - 1 | Long |
-| float | 32位 | IEEE754 | IEEE754 | Float |
-| double | 64位 | IEEE754 | IEEE754 | Double |
-| void | - | - | - | Void |
+| 基本类型    | 大小  | 最小值              | 最大值          | 包装类       |
+|---------|-----|------------------|--------------|-----------|
+| boolean | -   | -                | -            | Boolean   |
+| char    | 16位 | Unicode 0 \u0000 | 65535 \uffff | Character |
+| byte    | 8位  | -128             | 127          | Byte      |
+| short   | 16位 | -32768           | +32767       | Short     |
+| int     | 32位 | -2^31            | +2^31 - 1    | Integer   |
+| long    | 64位 | -2^63            | +2^63 - 1    | Long      |
+| float   | 32位 | IEEE754          | IEEE754      | Float     |
+| double  | 64位 | IEEE754          | IEEE754      | Double    |
+| void    | -   | -                | -            | Void      |
 
     Java使用与C和C++相同的实现机制，不用new，直接创建一个“自动变量”（不是引用）。
     
@@ -58,7 +58,12 @@
     所有Java程序默认导入java.lang包
 
 ## 3.9 编程风格
-    
+
+# NOTES
+
+## 1. Java创建对象的时候属性用基本数据类还是包装类好
+    1. 所有Pojo类属性必须使用包装数据类型。
+    2. 所有局部变量推荐使用基本数据（效率高）。
 
 
 
